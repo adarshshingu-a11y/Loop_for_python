@@ -1,0 +1,4 @@
+num=1
+for i in range(100):
+    print("hello")
+i+=1
