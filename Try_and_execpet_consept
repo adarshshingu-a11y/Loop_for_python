@@ -1,0 +1,10 @@
+try:
+    num = int(input("Ek number daaliye: "))
+    result = 10 / num
+    print("Result:", result)
+except ZeroDivisionError:
+    print("Error: Zero se divide nahi kar sakte!")
+except ValueError:
+    print("Error: Sahi number daaliye!")
+
+#Look here — when you know that an error might occur, that's when we use try and except.
